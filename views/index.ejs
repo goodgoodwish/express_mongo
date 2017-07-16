@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<title>Charlie database app on Express and Node.js</title>
+</head>
+<body>
+	May Node.js and Express be with you.  -- Charlie
+
+  <ul class="quotes">
+  <% for(var i=0; i<quotes.length; i++) {%>
+    <li class="quote">
+      <span><%= quotes[i].name %></span>
+      <span><%= quotes[i].quote %></span>
+    </li>
+  <% } %>
+  </ul>
+
+	<form action="/quotes" method="POST">
+		<input type="text" name="name" placeholder="name">
+		<input type="text" name="quote" placeholder="input your quote">
+		<button type="submit">Submit</button>
+	</form>
+
+	<div>
+		<h2> Update quote </h2>
+		<button id="update">Update it</button>
+	</div>
+
+	<div>
+		<h2> Delete quote </h2>
+		<button id="delete">Delete one</button>
+	</div>
+
+</body>
+</html>
+
