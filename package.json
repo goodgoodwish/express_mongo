@@ -1,0 +1,26 @@
+{
+  "name": "express_mongo",
+  "version": "1.0.0",
+  "description": "Building a Simple database Application with Express and MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goodgoodwish/express_mongo.git"
+  },
+  "keywords": [
+    "express",
+    "mongodb"
+  ],
+  "author": "Charlie Yi Zhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goodgoodwish/express_mongo/issues"
+  },
+  "homepage": "https://github.com/goodgoodwish/express_mongo#readme",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
